@@ -7,7 +7,6 @@ from langchain.callbacks.streamlit import StreamlitCallbackHandler
 import os
 
 
-
 # Arxiv and Wikipedia tools
 arxiv_wrapper = ArxivAPIWrapper(top_K_results=1, doc_content_chars_max=200)
 arxiv = ArxivQueryRun(api_wrapper=arxiv_wrapper)
